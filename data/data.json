@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "name": "Espresso",
+    "image": "☕",
+    "origin": "Italy",
+    "caffeine": "High",
+    "price": "3.00",
+    "description": "A strong, concentrated coffee served in small shots."
+  },
+  {
+    "id": 1,
+    "name": "Donut",
+    "image": "🍩",
+    "origin": "USA",
+    "caffeine": "None",
+    "price": "2.50",
+    "description": "A sweet, fried pastry, often glazed or filled with cream."
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino",
+    "image": "☕✨",
+    "origin": "Italy",
+    "caffeine": "Medium",
+    "price": "4.50",
+    "description": "A smooth coffee drink with espresso, steamed milk, and frothy milk foam."
+  },
+  {
+    "id": 3,
+    "name": "Croissant",
+    "image": "🥐",
+    "origin": "France",
+    "caffeine": "None",
+    "price": "3.00",
+    "description": "A flaky, buttery pastry, perfect for breakfast or with coffee."
+  },
+  {
+    "id": 4,
+    "name": "Macchiato",
+    "image": "☕🥛",
+    "origin": "Italy",
+    "caffeine": "High",
+    "price": "4.00",
+    "description": "Espresso with a small amount of frothy milk, creating a strong, bold taste."
+  },
+  {
+    "id": 5,
+    "name": "Matcha Latte",
+    "image": "🍵",
+    "origin": "Japan",
+    "caffeine": "Medium",
+    "price": "5.00",
+    "description": "A vibrant green tea latte made with matcha powder and steamed milk."
+  },
+  {
+    "id": 6,
+    "name": "Iced Coffee",
+    "image": "🥤☕",
+    "origin": "Global",
+    "caffeine": "High",
+    "price": "3.50",
+    "description": "Chilled coffee served over ice, refreshing and energizing."
+  },
+  {
+    "id": 7,
+    "name": "Bagel",
+    "image": "🥯",
+    "origin": "Poland",
+    "caffeine": "None",
+    "price": "2.75",
+    "description": "A dense, chewy bread roll, often topped with seeds and served with cream cheese."
+  },
+  {
+    "id": 8,
+    "name": "Affogato",
+    "image": "🍨☕",
+    "origin": "Italy",
+    "caffeine": "High",
+    "price": "6.00",
+    "description": "A scoop of vanilla ice cream drowned in a shot of hot espresso."
+  },
+  {
+    "id": 9,
+    "name": "Turkish Coffee",
+    "image": "☕🇹🇷",
+    "origin": "Turkey",
+    "caffeine": "Very High",
+    "price": "5.50",
+    "description": "Strong, unfiltered coffee brewed in a cezve, served with foam on top."
+  }
+]
