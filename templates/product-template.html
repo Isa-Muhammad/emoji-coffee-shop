@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoji Coffee Shop</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 5rem 5rem 10rem;
+        line-height: 1.7;
+        font-family: "Nunito Sans", sans-serif;
+        color: #555;
+        min-height: 100vh;
+        background: linear-gradient(to bottom right, #cd8219, #e3d800f0);
+      }
+
+      h1 {
+        font-size: 5rem;
+        color: white;
+        transform: skewY(-5deg);
+        text-align: center;
+        position: relative;
+        word-spacing: 3px;
+      }
+
+      .container {
+        width: 95rem;
+        margin: 0 auto;
+      }
+
+      .product {
+        width: 60rem;
+        margin: 0 auto;
+        margin-top: 9rem;
+        background: white;
+        box-shadow: 0 3rem 6rem 1rem rgba(0, 0, 0, 0.2);
+        position: relative;
+      }
+
+      .product__hero {
+        position: relative;
+        height: 22rem;
+        overflow: hidden;
+      }
+
+      .product__back:link,
+      .product__back:visited {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        z-index: 1000;
+        color: #555;
+        background-color: white;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+        border-radius: 100rem;
+        padding: 0 2rem;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+      }
+
+      .product__back:hover,
+      .product__back:active {
+        background-color: #cd8219;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>☕️ Emoji Coffee Shop</h1>
+
+      <figure class="product">
+        <a href="/home" class="product__back">Back </a>
+        <div class="product__hero">
+          <span class="product__emoji product__emoji--1">☕️</span>
+          <span class="product__emoji product__emoji--2">☕️</span>
+          <span class="product__emoji product__emoji--3">☕️</span>
+          <span class="product__emoji product__emoji--4">☕️</span>
+          <span class="product__emoji product__emoji--5">☕️</span>
+          <span class="product__emoji product__emoji--6">☕️</span>
+          <span class="product__emoji product__emoji--7">☕️</span>
+          <span class="product__emoji product__emoji--8">☕️</span>
+          <span class="product__emoji product__emoji--9">☕️</span>
+        </div>
+      </figure>
+    </div>
+  </body>
+</html>

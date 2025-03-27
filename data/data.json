@@ -56,7 +56,7 @@
   {
     "id": 6,
     "name": "Iced Coffee",
-    "image": "🥤☕",
+    "image": "🥤",
     "origin": "Global",
     "caffeine": "High",
     "price": "3.50",
@@ -74,7 +74,7 @@
   {
     "id": 8,
     "name": "Affogato",
-    "image": "🍨☕",
+    "image": "☕🍨",
     "origin": "Italy",
     "caffeine": "High",
     "price": "6.00",
